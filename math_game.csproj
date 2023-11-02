@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="elite_four.png" />
+    <None Remove="Fonts\PokemonSolidNormal-xyWR.ttf" />
+    <None Remove="Images\additionBackground.png" />
+    <None Remove="Images\elite_four.png" />
+    <None Remove="Images\scoreBackground.png" />
+    <None Remove="Images\Title.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="elite_four.png" />
+    <Resource Include="Fonts\PokemonSolidNormal-xyWR.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\additionBackground.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\elite_four.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\scoreBackground.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Title.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿<Application x:Class="math_game.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:math_game"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <FontFamily x:Key="Pokemon Solid Normal">./Fonts/PokemonSolidNormal-xyWR.ttf#Pokemon Solid Normal</FontFamily>
+    </Application.Resources>
+</Application>

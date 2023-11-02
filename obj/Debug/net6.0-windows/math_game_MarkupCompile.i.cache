@@ -1,0 +1,20 @@
+﻿math_game
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\school\2023\Fall\CS 3280\assignment\assignment_5\math_game\math_game\obj\Debug\net6.0-windows\
+math_game
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+D:\school\2023\Fall\CS 3280\assignment\assignment_5\math_game\math_game\App.xaml
+31466217091
+
+10-2139553200
+194-1325968647
+gameWindow.xaml;MainWindow.xaml;scoreWindow.xaml;
+
+True
+
